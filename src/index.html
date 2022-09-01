@@ -17,7 +17,7 @@
 
       <!-- Block Personal information label label label -->
       <fieldset name="BlockPersonalInformation" class="block">
-        <legend>Personal information:</legend>
+        <legend>Personal information</legend>
         <label class="input">Surname:
           <input
             type="text"
@@ -34,7 +34,7 @@
           >
         </label>
 
-        <label class="input">How old are you ?
+        <label class="input">How old are You?
           <input
             type="number"
             value="12"
@@ -43,7 +43,7 @@
           >
         </label>
 
-        <label class="input">Full date of birth
+        <label class="input">Full date of birth:
           <input type="date" >
         </label>
 
@@ -56,7 +56,7 @@
 
       <!-- Block Registration -->
       <fieldset name="BlockRegistration" class="block">
-        <legend>Registration:
+        <legend>Registration
         </legend>
         <label class="input">E-mail:
           <input
@@ -78,30 +78,34 @@
         <legend>An interesting fact about you!
 
         </legend>
-        <label class="input">Do you love cats ?
-          <a>
-            <input
+        <div class="input">
+          <label>  Do you love cats?
+            <a>
+              <input
                 type="radio"
                 name="radiocats"
-            > Yes
-          </a>
-          <a>
-            <input
+              > Yes
+            </a>
+          </label>
+          <label>
+            <a>
+              <input
                 type="radio"
                 name="radiocats"
-            > No
-          </a>
-        </label>
-        <label class="input">What is your favorite color ?
+              > No
+            </a>
+          </label>
+        </div>
+        <label class="input">What is your favorite color?
           <input type="color">
         </label>
 
-        <label class="input">What time do you go to bed ?
+        <label class="input">What time do you go to bed?
           <input type="time">
         </label>
 
-        <label>
-          What are your favorite brand of cars ?
+        <label class="input">
+          What are your favorite brand of cars?
           <select name="brand" multiple>
             <option value="bmw">BMW</option>
             <option value="bmw">Audi</option>
@@ -109,7 +113,7 @@
           </select>
         </label>
 
-        <label class="input">How do you rate our work ?
+        <label class="input">How do you rate our work?
           <input
             type="range"
             value="0"
@@ -119,15 +123,15 @@
       </fieldset>
 
       <!-- Additional info: -->
-      <fieldset name="Additionalinfo" class="block">
+      <fieldset name="Additionalinfo" class="block info">
         <legend>Additional info:</legend>
         <label class="input">Comments:
-          <textarea cols="30" rows="3"></textarea>
+          <textarea cols="20" rows="2"></textarea>
         </label>
         <label class="input"> Would you recommend us ?
           <select name="YesNo">
-            <option value="yes">Yes</option>
-            <option value="no">No</option>
+            <option value="yes">yes</option>
+            <option value="no">no</option>
           </select>
         </label>
       </fieldset>
